@@ -1,0 +1,33 @@
+/* CSS Document */
+
+.ui-progressbar {
+    position: relative;
+}
+.progress-label {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+}
+table.wp-list-table .column-name { width:22% !important; }
+table.wp-list-table .column-sku { width:130px !important; }
+table.wp-list-table .column-is_in_stock { width:80px !important; }
+table.wp-list-table .column-price { width:80px !important; }
+table.wp-list-table .column-product_cat { width:80px !important; }
+table.wp-list-table .column-date { width:100px !important; }
+table.wp-list-table .column-product_type { width:30px !important; }
+table.wp-list-table .column-featured { width:30px !important; }
+/*
+.column-tags { display: none }
+.column-author { width:30px !important; overflow:hidden }
+.column-categories { width:30px !important; overflow:hidden }
+.column-title a { font-size:30px !important }
+*/
+#wp-admin-bar-wow-mm-indicator.wow-mm-indicator--enabled { background: rgba(159,0,0,1) !important }
+#wp-admin-bar-wow-mm-indicator { background-color: rgba(0,102,0,1) !important }
+#wp-admin-bar-wow-mm-indicator > a:hover { background-color: rgba(153,0,0,0.7) !important }
+
+.no-display {
+	display: none;
+}

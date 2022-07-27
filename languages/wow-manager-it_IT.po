@@ -1,0 +1,870 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WoW Manager\n"
+"POT-Creation-Date: 2019-01-29 00:03+0100\n"
+"PO-Revision-Date: 2019-01-29 00:03+0100\n"
+"Last-Translator: Andrea Starz <info@work-on-web.it>\n"
+"Language-Team: Andrea <info@work-on-web.it>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;_x;_n;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../wow-manager.php:190
+msgid "Impostazioni "
+msgstr "Impostazioni "
+
+#: ../wow-manager.php:289
+#, php-format
+msgid ""
+"Connessione fallita con il DB WoW-Commerce: ritorna alla pagina di <a href="
+"\"%s\" >impostazioni</a> e inserisci dei dati validi per la connessione!"
+msgstr ""
+"Connessione fallita con il DB WoW-Commerce: ritorna alla pagina di <a href="
+"\"%s\" >impostazioni</a> e inserisci dei dati validi per la connessione!"
+
+#: ../wow-manager.php:291
+#, php-format
+msgid ""
+"Connessione fallita con il DB WoW-Commerce: ritorna alla pagina di <a href="
+"\"%s\" >impostazioni</a> e modifica i dati di connessione!"
+msgstr ""
+"Connessione fallita con il DB WoW-Commerce: ritorna alla pagina di <a href="
+"\"%s\" >impostazioni</a> e modifica i dati di connessione!"
+
+#: ../wow-manager.php:292
+msgid ""
+"Connessione stabilita correttamente: il DB &eacute; pronto per "
+"l'importazione!"
+msgstr ""
+"Connessione stabilita correttamente: il DB &eacute; pronto per "
+"l'importazione!"
+
+#: ../wow-manager.php:464 ../wow-manager.php:473
+#: ../includes/lib/class-wow-settings.php:368
+#: ../includes/lib/class-wow-settings.php:377
+#: ../modules/loggers/class-wow-logger-manager.php:121
+#: ../modules/loggers/class-wow-logger-manager.php:130
+#: ../modules/maintenance/class-wow-maintenance.php:319
+#: ../modules/maintenance/class-wow-maintenance.php:328
+#: ../modules/support/class-wow-support.php:252
+#: ../modules/support/class-wow-support.php:261
+#: ../modules/woo-deleteproduct/class-wow-deleteproduct.php:214
+#: ../modules/woo-deleteproduct/class-wow-deleteproduct.php:223
+#: ../modules/woo-utilities/class-wow-wooutilities.php:226
+#: ../modules/woo-utilities/class-wow-wooutilities.php:235
+msgid "Cheatin&#8217; huh?"
+msgstr "Ohè Allora?"
+
+#: ../includes/functions-settings-base.php:7
+msgid "Generali"
+msgstr "Generali"
+
+#: ../includes/functions-settings-base.php:8
+msgid "Impostazioni Generali Plugin."
+msgstr ""
+
+#: ../includes/functions-settings-base.php:18
+msgid "Immagine su Categoria"
+msgstr ""
+
+#: ../includes/functions-settings-base.php:19
+msgid "Abilita Immagine su Categoria."
+msgstr ""
+
+#: ../includes/functions-settings-base.php:31
+msgid "Visualizza Colonna Immagine"
+msgstr ""
+
+#: ../includes/functions-settings-base.php:32
+msgid "Abilita Visualizzazione Colonna Immagine in Elenco."
+msgstr ""
+
+#: ../includes/functions-settings-base.php:44
+msgid "Default Img x Categorie"
+msgstr ""
+
+#: ../includes/functions-settings-base.php:45
+msgid "Abilita Immagine di Default x le Categorie."
+msgstr ""
+
+#: ../includes/functions-settings-base.php:57
+msgid "Immagine di Default delle Categorie"
+msgstr ""
+
+#: ../includes/functions-settings-base.php:58
+msgid ""
+"Qui puoi caricare l'immagine di default per le categorie e memorizzare il "
+"suo ID. Una volta selezionata o caricata la miniatura apparirà sopra questo "
+"bottone."
+msgstr ""
+
+#: ../includes/functions-settings-base.php:68
+msgid "Default Img x Prodotti"
+msgstr ""
+
+#: ../includes/functions-settings-base.php:69
+msgid "Abilita Immagine di Default x i Prodotti."
+msgstr ""
+
+#: ../includes/functions-settings-base.php:81
+msgid "Immagine di Default dei Prodotti"
+msgstr ""
+
+#: ../includes/functions-settings-base.php:82
+msgid ""
+"Qui puoi caricare l'immagine di default per i prodotti dello shop e "
+"memorizzare il suo ID. Una volta selezionata o caricata la miniatura "
+"apparirà sopra questo bottone."
+msgstr ""
+
+#: ../includes/functions-settings-conn.php:7
+msgid "Dati Connessione DB Est."
+msgstr ""
+
+#: ../includes/functions-settings-conn.php:8
+msgid "Inserire le impostazioni di connessione per il DB esterno."
+msgstr ""
+
+#: ../includes/functions-settings-conn.php:18
+msgid "URL Store"
+msgstr "URL Store"
+
+#: ../includes/functions-settings-conn.php:19
+msgid "URL dello Store da importare."
+msgstr ""
+
+#: ../includes/functions-settings-conn.php:29
+msgid "Host DB"
+msgstr "Host DB"
+
+#: ../includes/functions-settings-conn.php:30
+msgid "URL Host del DB da importare."
+msgstr ""
+
+#: ../includes/functions-settings-conn.php:40
+msgid "Nome Utente"
+msgstr ""
+
+#: ../includes/functions-settings-conn.php:41
+msgid "Nome Utente del DB."
+msgstr ""
+
+#: ../includes/functions-settings-conn.php:51
+msgid "Password"
+msgstr "Password"
+
+#: ../includes/functions-settings-conn.php:52
+msgid "Password Utente del DB."
+msgstr ""
+
+#: ../includes/functions-settings-conn.php:62
+msgid "Nome DB"
+msgstr ""
+
+#: ../includes/functions-settings-conn.php:63
+msgid "Nome DB da importare."
+msgstr ""
+
+#: ../includes/lib/class-wow-admin-api.php:212
+msgid "Upload an image"
+msgstr "Carica un Immagine"
+
+#: ../includes/lib/class-wow-admin-api.php:212
+msgid "Use image"
+msgstr "Usa Immagine"
+
+#: ../includes/lib/class-wow-admin-api.php:212
+msgid "Upload new image"
+msgstr "Carica nuova Immagine"
+
+#: ../includes/lib/class-wow-admin-api.php:213
+msgid "Remove image"
+msgstr "Rimuovi Immagine"
+
+#: ../includes/lib/class-wow-cherry-taxonomy-image.php:75
+#: ../includes/lib/class-wow-custom-taxonomy-image.php:65
+#: ../includes/lib/class-wow-custom-taxonomy-image.php:92
+#: ../includes/lib/class-wow-custom-taxonomy-image.php:192
+#: ../includes/lib/class-wow-standard-taxonomy-image.php:96
+#: ../includes/lib/class-wow-standard-taxonomy-image.php:125
+#: ../includes/lib/class-wow-standard-taxonomy-image.php:226
+msgid "Image"
+msgstr "Immagine"
+
+#: ../includes/lib/class-wow-custom-attributes.php:164
+msgid "Please, provide an attribute name and slug."
+msgstr "Per favore, inserisci un attributo e lo slug."
+
+#: ../includes/lib/class-wow-custom-attributes.php:170
+#, php-format
+msgid "Slug \"%s\" is already in use. Change it, please."
+msgstr "Slug \"%s\" è già utilizzato. Cambialo, per favore."
+
+#: ../includes/lib/class-wow-custom-attributes.php:182
+#, php-format
+msgid "Slug \"%s\" is too long (28 characters max). Shorten it, please."
+msgstr "Slug \"%s\" è troppo lungo (28 caratteri max). Abbrevialo, per favore."
+
+#: ../includes/lib/class-wow-custom-attributes.php:184
+#, php-format
+msgid ""
+"Slug \"%s\" is not allowed because it is a reserved term. Change it, please."
+msgstr ""
+"Slug \"%s\" non è consentito in quanto una parola riservata. Cambialo, per "
+"favore."
+
+#: ../includes/lib/class-wow-custom-attributes.php:262
+msgid "senza-"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:120
+#, php-format
+msgid "Archivio %s"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:121
+#, php-format
+msgid "Attributi %s"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:122
+#, php-format
+msgid "Id Padre %s"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:123
+#: ../includes/lib/class-wow-custom-post-type.php:140
+#, php-format
+msgid "Lista %s"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:124
+#: ../includes/lib/class-wow-custom-post-type.php:126
+#, php-format
+msgid "Nuovo %s"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:125
+msgid "Aggiungi Nuovo"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:127
+#, php-format
+msgid "Modifica %s"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:128
+#, php-format
+msgid "Aggiorna %s"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:129
+#: ../includes/lib/class-wow-custom-post-type.php:130
+#, php-format
+msgid "Vedi %s"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:131
+#, php-format
+msgid "Cerca %s"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:132
+#, php-format
+msgid "Nessun %s Trovato"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:133
+#, php-format
+msgid "Nessun %s Trovato nel Cestino"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:134
+msgid "Immagine in Evidenza"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:135
+msgid "Imposta immagine in evidenza"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:136
+msgid "Rimuovi Immagine in Evidenza"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:137
+msgid "Usa questa Immagine come Immagine in Evidenza"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:138
+msgid "Inserisci nell'elemento"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:139
+msgid "Caricato in questo elemento"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:141
+#, php-format
+msgid "Naviga tra i/gli %s"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:142
+#, php-format
+msgid "Filtra %s"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:153
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: ../includes/lib/class-wow-custom-post-type.php:197
+#, php-format
+msgid "%1$s updated. %2$sView %3$s%4$s."
+msgstr "%1$s aggiornato. %2$sVisualizza %3$s%4$s."
+
+#: ../includes/lib/class-wow-custom-post-type.php:198
+msgid "Custom field updated."
+msgstr "Campo Personalizato aggiornato."
+
+#: ../includes/lib/class-wow-custom-post-type.php:199
+msgid "Custom field deleted."
+msgstr "Campo Personalizzato cancellato."
+
+#: ../includes/lib/class-wow-custom-post-type.php:200
+#, php-format
+msgid "%1$s updated."
+msgstr "%1$s aggiornato."
+
+#: ../includes/lib/class-wow-custom-post-type.php:201
+#, php-format
+msgid "%1$s restored to revision from %2$s."
+msgstr "%1$s ripristinato alla revisione da %2$s."
+
+#: ../includes/lib/class-wow-custom-post-type.php:202
+#, php-format
+msgid "%1$s published. %2$sView %3$s%4s."
+msgstr "%1$s pubblicato. %2$sVisualizza %3$s%4s."
+
+#: ../includes/lib/class-wow-custom-post-type.php:203
+#, php-format
+msgid "%1$s saved."
+msgstr "%1$s salvato."
+
+#: ../includes/lib/class-wow-custom-post-type.php:204
+#, php-format
+msgid "%1$s submitted. %2$sPreview post%3$s%4$s."
+msgstr "%1$s inviato. %2$sAnteprima%3$s%4$s."
+
+#: ../includes/lib/class-wow-custom-post-type.php:205
+#, php-format
+msgid "%1$s scheduled for: %2$s. %3$sPreview %4$s%5$s."
+msgstr "%1$s pianificato per: %2$s. %3$sAnteprima %4$s%5$s."
+
+#: ../includes/lib/class-wow-custom-post-type.php:205
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: ../includes/lib/class-wow-custom-post-type.php:206
+#, php-format
+msgid "%1$s draft updated. %2$sPreview %3$s%4$s."
+msgstr "%1$s bozza aggiornata. %2$sAnteprima %3$s%4$s."
+
+#: ../includes/lib/class-wow-custom-post-type.php:221
+#, php-format
+msgid "%1$s %2$s updated."
+msgstr "%1$s %2$s aggiornato."
+
+#: ../includes/lib/class-wow-custom-post-type.php:222
+#, php-format
+msgid "%1$s %2$s not updated, somebody is editing it."
+msgstr "%1$s %2$s non aggiornato, qualcuno lo sta modificando."
+
+#: ../includes/lib/class-wow-custom-post-type.php:223
+#, php-format
+msgid "%1$s %2$s permanently deleted."
+msgstr "%1$s %2$s cancellato definitivamente."
+
+#: ../includes/lib/class-wow-custom-post-type.php:224
+#, php-format
+msgid "%1$s %2$s moved to the Trash."
+msgstr "%1$s %2$s spostato nel Cestino."
+
+#: ../includes/lib/class-wow-custom-post-type.php:225
+#, php-format
+msgid "%1$s %2$s restored from the Trash."
+msgstr "%1$s %2$s ripristinato dal Cestino."
+
+#: ../includes/lib/class-wow-custom-post-type.php:254
+msgid "Autore"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-post-type.php:255
+msgid "Data Invio"
+msgstr ""
+
+#: ../includes/lib/class-wow-custom-taxonomy-image.php:69
+#: ../includes/lib/class-wow-custom-taxonomy-image.php:103
+#: ../includes/lib/class-wow-standard-taxonomy-image.php:100
+#: ../includes/lib/class-wow-standard-taxonomy-image.php:136
+msgid "Add Image"
+msgstr "Aggiungi Immagine"
+
+#: ../includes/lib/class-wow-custom-taxonomy-image.php:70
+#: ../includes/lib/class-wow-custom-taxonomy-image.php:104
+#: ../includes/lib/class-wow-standard-taxonomy-image.php:101
+#: ../includes/lib/class-wow-standard-taxonomy-image.php:137
+msgid "Remove Image"
+msgstr "Cancella Immagine"
+
+#: ../includes/lib/class-wow-custom-taxonomy-image.php:135
+#: ../includes/lib/class-wow-standard-taxonomy-image.php:168
+msgid "Insert"
+msgstr "Inserisci"
+
+#: ../includes/lib/class-wow-custom-taxonomy.php:137
+#, php-format
+msgid "All %s"
+msgstr "Tutti %s"
+
+#: ../includes/lib/class-wow-custom-taxonomy.php:138
+#, php-format
+msgid "Edit %s"
+msgstr "Modifica %s"
+
+#: ../includes/lib/class-wow-custom-taxonomy.php:139
+#, php-format
+msgid "View %s"
+msgstr "Visualizza %s"
+
+#: ../includes/lib/class-wow-custom-taxonomy.php:140
+#, php-format
+msgid "Update %s"
+msgstr "Aggiorna %s"
+
+#: ../includes/lib/class-wow-custom-taxonomy.php:141
+#, php-format
+msgid "Add New %s"
+msgstr "Aggiungi Nuovo %s"
+
+#: ../includes/lib/class-wow-custom-taxonomy.php:142
+#, php-format
+msgid "New %s Name"
+msgstr "Nuovo Nome %s"
+
+#: ../includes/lib/class-wow-custom-taxonomy.php:143
+#, php-format
+msgid "Parent %s"
+msgstr "Genitore %s"
+
+#: ../includes/lib/class-wow-custom-taxonomy.php:144
+#, php-format
+msgid "Parent %s:"
+msgstr "Genitore %s:"
+
+#: ../includes/lib/class-wow-custom-taxonomy.php:145
+#, php-format
+msgid "Search %s"
+msgstr "Cerca %s"
+
+#: ../includes/lib/class-wow-custom-taxonomy.php:146
+#, php-format
+msgid "Popular %s"
+msgstr "Popolare %s"
+
+#: ../includes/lib/class-wow-custom-taxonomy.php:147
+#, php-format
+msgid "Separate %s with commas"
+msgstr "Separa %s con virgole"
+
+#: ../includes/lib/class-wow-custom-taxonomy.php:148
+#, php-format
+msgid "Add or remove %s"
+msgstr "Aggiungi o cancella %s"
+
+#: ../includes/lib/class-wow-custom-taxonomy.php:149
+#, php-format
+msgid "Choose from the most used %s"
+msgstr "Scegli tra i più usati %s"
+
+#: ../includes/lib/class-wow-custom-taxonomy.php:150
+#, php-format
+msgid "No %s found"
+msgstr "Nessun %s trovato"
+
+#: ../includes/lib/class-wow-custom-taxonomy.php:220
+#, php-format
+msgid "senza-%s"
+msgstr ""
+
+#: ../includes/lib/class-wow-settings.php:122
+msgid "Impostazioni"
+msgstr ""
+
+#: ../includes/lib/class-wow-settings.php:284
+msgid " Settings"
+msgstr "Impostazioni"
+
+#: ../modules/loggers/class-wow-logger-manager.php:87
+msgid "Visualizza Log Operazioni"
+msgstr ""
+
+#: ../modules/loggers/class-wow-logger-manager.php:87
+msgid "Visualizza Log"
+msgstr ""
+
+#: ../modules/loggers/class-wow-logger.php:105
+msgid "Inizio Registrazione Eventi."
+msgstr ""
+
+#: ../modules/loggers/class-wow-logger.php:211
+msgid "Elenco Eventi Cancellato."
+msgstr ""
+
+#: ../modules/loggers/logger-view-page.php:16
+msgid "Visualizzazione Registrazioni Attivit&agrave;"
+msgstr ""
+
+#: ../modules/loggers/logger-view-page.php:18
+msgid "Main"
+msgstr ""
+
+#: ../modules/loggers/logger-view-page.php:29
+msgid "Selezionare un log da visualizzare !"
+msgstr ""
+
+#: ../modules/loggers/logger-view-tabs.php:11
+msgid "Eventi Registrati"
+msgstr ""
+
+#: ../modules/loggers/logger-view-tabs.php:13
+msgid "Cancella Registrazioni"
+msgstr ""
+
+#: ../modules/loggers/logger-view-tabs.php:18
+msgid "Timestamp"
+msgstr "DataOra"
+
+#: ../modules/loggers/logger-view-tabs.php:19
+msgid "Evento"
+msgstr ""
+
+#: ../modules/loggers/logger-view-tabs.php:20
+msgid "Utente"
+msgstr ""
+
+#: ../modules/maintenance/class-wow-maintenance.php:102
+msgid "Manutenzione e Aggiornamento"
+msgstr ""
+
+#: ../modules/maintenance/class-wow-maintenance.php:102
+#: ../modules/maintenance/class-wow-maintenance.php:139
+msgid "Manutenzione"
+msgstr ""
+
+#: ../modules/maintenance/class-wow-maintenance.php:140
+msgid ""
+"Imposta cosa visualizzare durante la manutenzione/aggiornamento del sito."
+msgstr ""
+
+#: ../modules/maintenance/class-wow-maintenance.php:149
+msgid "Redireziona su: "
+msgstr ""
+
+#: ../modules/maintenance/class-wow-maintenance.php:150
+msgid "Selezionare se redirezionare su una pagina o un indirizzo esterno."
+msgstr ""
+
+#: ../modules/maintenance/class-wow-maintenance.php:153
+#: ../modules/support/class-wow-support.php:132
+msgid "Nessuna azione."
+msgstr ""
+
+#: ../modules/maintenance/class-wow-maintenance.php:153
+msgid "Pagina"
+msgstr ""
+
+#: ../modules/maintenance/class-wow-maintenance.php:153
+msgid "Indirizzo esterno"
+msgstr ""
+
+#: ../modules/maintenance/class-wow-maintenance.php:160
+msgid "Pagina:"
+msgstr ""
+
+#: ../modules/maintenance/class-wow-maintenance.php:161
+msgid "Seleziona la pagina di redirezione."
+msgstr ""
+
+#: ../modules/maintenance/class-wow-maintenance.php:172
+msgid "URL:"
+msgstr ""
+
+#: ../modules/maintenance/class-wow-maintenance.php:173
+msgid "Inserire l'URL di redirezione (comprensivo di http:// o https://."
+msgstr ""
+
+#: ../modules/maintenance/class-wow-maintenance.php:177
+msgid "URL redirect"
+msgstr "URL di redirezione"
+
+#: ../modules/maintenance/class-wow-maintenance.php:212
+msgid "Manutenzione Non Attiva -> Negozio Aperto"
+msgstr ""
+
+#: ../modules/maintenance/class-wow-maintenance.php:215
+msgid "Manutenzione Attiva -> Negozio Chiuso"
+msgstr ""
+
+#: ../modules/maintenance/class-wow-maintenance.php:226
+msgid "Maintenance Mode"
+msgstr "Modalità Manutenzione"
+
+#: ../modules/maintenance/wow-maintenance-view-page.php:16
+msgid "Modalità Aggiornamento e Manutenzione"
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:83
+msgid "Supporto"
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:97
+msgid "Crediti e Supporto"
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:98
+msgid "Imposta contatti per sviluppo e supporto."
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:107
+msgid "Abilita pagina supporto: "
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:108
+msgid "Abilitate la pagina e il footer di supporto."
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:111
+msgid "Disabilitata."
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:111
+msgid "Abilitata"
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:118
+msgid "Nominativo o azienda di assistenza: "
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:119
+msgid "Nominativo o azienda che ha eseguito lo sviluppo e personalizzazione."
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:121
+msgid "Inserire il nominativo"
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:128
+msgid "Abilita link al supporto: "
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:129
+msgid "Abilitate il collegamento alla pagina di supporto."
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:132
+msgid "Indirizzo Esterno"
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:139
+msgid "Indirizzo del supporto: "
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:140
+msgid "Indirizzo della pagina di supporto."
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:142
+msgid "Inserire l'indirizzo della pagina comprensivo di http o https"
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:149
+msgid "Indirizzo mail del supporto: "
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:150
+msgid "Indirizzo e-mail di supporto."
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:152
+msgid "Inserire l'indirizzo e-mail del supporto"
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:159
+msgid "Telefono del supporto: "
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:160
+msgid "Numero telefonico del supporto."
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:162
+msgid "Inserire il numero telefonico del supporto"
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:180
+#, php-format
+msgid ""
+"Piattaforma WordPress personalizzata da <a href=\"%s\" target=\"_blank\">%s</"
+"a>"
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:182
+#, php-format
+msgid "Piattaforma WordPress personalizzata da %s"
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:190
+#, php-format
+msgid " - Per assistenza e sviluppo contattare il %s"
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:191
+#, php-format
+msgid " o inviare una mail a questo <a href=\"mailto:%s\">indirizzo</a>."
+msgstr ""
+
+#: ../modules/support/class-wow-support.php:223
+msgid "Support"
+msgstr ""
+
+#: ../modules/woo-deleteproduct/class-wow-deleteproduct.php:99
+#: ../modules/woo-utilities/class-wow-wooutilities.php:100
+msgid "Bulk Delete Product"
+msgstr "Cancellazione in Blocco Prodotti"
+
+#: ../modules/woo-deleteproduct/class-wow-deleteproduct.php:117
+#: ../modules/woo-utilities/class-wow-wooutilities.php:126
+msgid "Cancella Tutti i Prodotti"
+msgstr ""
+
+#: ../modules/woo-deleteproduct/class-wow-deleteproduct.php:117
+#: ../modules/woo-utilities/class-wow-wooutilities.php:126
+msgid "Cancella Prodotti"
+msgstr ""
+
+#: ../modules/woo-deleteproduct/class-wow-deleteproduct.php:137
+#: ../modules/woo-utilities/class-wow-wooutilities.php:137
+msgid "WooCommerce Utility"
+msgstr "Utilità WooCommerce"
+
+#: ../modules/woo-deleteproduct/class-wow-deleteproduct.php:138
+#: ../modules/woo-utilities/class-wow-wooutilities.php:138
+msgid "Utilità varie per interfacciarci con WooCommerce."
+msgstr ""
+
+#: ../modules/woo-deleteproduct/class-wow-deleteproduct.php:147
+#: ../modules/woo-utilities/class-wow-wooutilities.php:154
+msgid "Utility Svuota Prodotti"
+msgstr ""
+
+#: ../modules/woo-deleteproduct/class-wow-deleteproduct.php:148
+#: ../modules/woo-utilities/class-wow-wooutilities.php:155
+msgid ""
+"Abilita la funzionalità per lo svuotamento dello shop (cancella tutti i "
+"prodotti)."
+msgstr ""
+
+#: ../modules/woo-deleteproduct/class-wow-deleteproduct.php:160
+#: ../modules/woo-utilities/class-wow-wooutilities.php:168
+msgid "Inserisci nel Menù"
+msgstr ""
+
+#: ../modules/woo-deleteproduct/class-wow-deleteproduct.php:161
+#: ../modules/woo-utilities/class-wow-wooutilities.php:169
+msgid "Seleziona il menù dove inserire la voce per la cancellazione."
+msgstr ""
+
+#: ../modules/woo-deleteproduct/class-wow-deleteproduct.php:173
+#: ../modules/woo-utilities/class-wow-wooutilities.php:182
+msgid "Abilita log azioni"
+msgstr ""
+
+#: ../modules/woo-deleteproduct/class-wow-deleteproduct.php:174
+#: ../modules/woo-utilities/class-wow-wooutilities.php:183
+msgid "Abilita il tracciamento delle funzioni."
+msgstr ""
+
+#: ../modules/woo-deleteproduct/wow-deleteproduct-form.php:10
+#: ../modules/woo-utilities/wow-deleteproduct-form.php:12
+msgid "** Seleziona **"
+msgstr ""
+
+#: ../modules/woo-deleteproduct/wow-deleteproduct-form.php:11
+#: ../modules/woo-utilities/wow-deleteproduct-form.php:13
+msgid "Sposta nel Cestino"
+msgstr ""
+
+#: ../modules/woo-deleteproduct/wow-deleteproduct-form.php:12
+#: ../modules/woo-utilities/wow-deleteproduct-form.php:14
+msgid "Cancella Definitivamente"
+msgstr ""
+
+#: ../modules/woo-deleteproduct/wow-deleteproduct-form.php:17
+#: ../modules/woo-utilities/wow-deleteproduct-form.php:19
+msgid ""
+"Prosegui con la Cancellazione dei Prodotti, nuovamente nessuna conferma "
+"verrà richiesta!!"
+msgstr ""
+
+#: ../modules/woo-deleteproduct/wow-deleteproduct-form.php:19
+#: ../modules/woo-utilities/wow-deleteproduct-form.php:21
+msgid "Cancellazione dei Prodotti, nessuna conferma verrà richiesta!!"
+msgstr ""
+
+#: ../modules/woo-deleteproduct/wow-deleteproduct-page.php:13
+#: ../modules/woo-utilities/wow-deleteproduct-page.php:13
+msgid "Your settings have been saved."
+msgstr "Le tue impostazioni sono state salvate."
+
+#: ../modules/woo-deleteproduct/wow-deleteproduct-page.php:35
+#: ../modules/woo-utilities/wow-deleteproduct-page.php:35
+msgid "No products found."
+msgstr "Nessun prodotto trovato."
+
+#: ../modules/woo-deleteproduct/wow-deleteproduct-page.php:37
+#: ../modules/woo-utilities/wow-deleteproduct-page.php:37
+#, php-format
+msgid "Found %s products."
+msgstr "Trovati %s prodotti."
+
+#: ../modules/woo-deleteproduct/wow-deleteproduct-page.php:55
+#: ../modules/woo-utilities/wow-deleteproduct-page.php:55
+#, php-format
+msgid "Trying to remove %s products."
+msgstr "Sto cancellando %s prodotti."
+
+#: ../modules/woo-deleteproduct/wow-deleteproduct-page.php:67
+#: ../modules/woo-utilities/wow-deleteproduct-page.php:67
+#, php-format
+msgid "Removed %s products."
+msgstr "Cancellati %s prodotti."
+
+#: ../modules/woo-deleteproduct/wow-deleteproduct-page.php:71
+#: ../modules/woo-utilities/wow-deleteproduct-page.php:71
+msgid "Stopped processing due to imminent timeout."
+msgstr ""
+"Processo bloccato a causa dell'imminente scadenza tempi di esecuzione "
+"(timeout)."
+
+#: ../modules/woo-deleteproduct/wow-deleteproduct-page.php:79
+#: ../modules/woo-utilities/wow-deleteproduct-page.php:79
+msgid "Select an action before continue !"
+msgstr "Seleziona un azione prima di continuare !"
