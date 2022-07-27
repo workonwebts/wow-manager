@@ -256,7 +256,7 @@ if ( ! class_exists( 'WoW_Manager' ) ) {
 		public function constants() {
 
 			if (! defined( 'WOW_MANAGER_TEXT')){
-				define( 'WOW_MANAGER_TEXT', sanitize_file_name(basename($file,'.php')));
+				define( 'WOW_MANAGER_TEXT', sanitize_file_name(basename(__FILE__,'.php')));
 			}
 			 // Set the messages defs.
 			define( 'WOW_MANAGER_MSG_STATUSERR', 'error' );
