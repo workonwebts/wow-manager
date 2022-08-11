@@ -16,7 +16,6 @@ Gestione Funzioni di sincronizzazione e importazione di prodotti, categorie, cli
 
 .... e molto di più
 
-
 == Installation ==
 
 = Minimum Requirements =

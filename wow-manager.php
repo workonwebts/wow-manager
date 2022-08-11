@@ -2,7 +2,7 @@
 /*
 Plugin Name: WoW Manager
 Plugin URI: http://www.work-on-web.it/
-Description: Gestione Funzioni di sincronizzazione e importazione di prodotti, categorie, clienti e ordini da WoW-Commerce a WordPress/Woocommerce
+Description: Gestione Funzioni di sincronizzazione e importazione di prodotti, categorie, clienti e ordini da WoW-Commerce a WordPress / Woocommerce
 Author: Andrea Starz
 Version: 2.6.1
 Author URI: http://www.work-on-web.it/
