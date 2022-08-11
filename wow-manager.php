@@ -4,7 +4,7 @@ Plugin Name: WoW Manager
 Plugin URI: http://www.work-on-web.it/
 Description: Gestione Funzioni di sincronizzazione e importazione di prodotti, categorie, clienti e ordini da WoW-Commerce a WordPress/Woocommerce
 Author: Andrea Starz
-Version: 2.5.0
+Version: 2.6.1
 Author URI: http://www.work-on-web.it/
 Text Domain: wow-manager
 License:     GPL-3.0+
@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // disable direct access
 }
  // Set the version number of the plugin.
-define( 'WOW_MANAGER_VERSION', '2.3.1' );
+define( 'WOW_MANAGER_VERSION', '2.6.1' );
  // Set the slug of the plugin.
 define( 'WOW_MANAGER_SLUG', basename( dirname( __FILE__ ) ) );
 define( 'WOWBOOKSTORE_SLUG', basename( dirname( __FILE__ ) ) );
@@ -45,7 +45,7 @@ require_once WOW_MANAGER_DIR . 'includes/install/class-wow-plugin-activator.php'
 require_once WOW_MANAGER_DIR . 'includes/install/class-wow-plugin-deactivator.php';
 require_once WOW_MANAGER_DIR . 'includes/install/class-wow-plugin-installer.php';
 require_once WOW_MANAGER_DIR . 'includes/install/class-wow-plugin-updates.php';
-require_once( WOW_MANAGER_DIR . 'includes/lib/class-wow-settings.php' );
+require_once WOW_MANAGER_DIR . 'includes/lib/class-wow-settings.php';
 // modules
 /*
 require_once( WOW_MANAGER_DIR . 'modules/maintenance/class-wow-maintenance.php' );
@@ -256,7 +256,7 @@ if ( ! class_exists( 'WoW_Manager' ) ) {
 		public function constants() {
 
 			if (! defined( 'WOW_MANAGER_TEXT')){
-				define( 'WOW_MANAGER_TEXT', sanitize_file_name(basename(__FILE__,'.php')));
+				define( 'WOW_MANAGER_TEXT', sanitize_file_name(basename($file,'.php')));
 			}
 			 // Set the messages defs.
 			define( 'WOW_MANAGER_MSG_STATUSERR', 'error' );
@@ -285,6 +285,9 @@ if ( ! class_exists( 'WoW_Manager' ) ) {
 			require_once( 'includes/lib/class-DataSourceCSV.php' );
 			require_once( 'includes/lib/class-wow-admin-api.php' );
 			require_once( 'includes/lib/class-wow-custom-admintable.php' );
+			// tgmpa plugin richiesti
+			require_once( 'includes/tgmpa/tgmpa-configuration.php');
+			require_once( 'includes/puc/plugin-update-checker.php');
 			// custom taxonomies
 			require_once( 'includes/lib/class-wow-custom-taxonomy.php' );
 			require_once( 'includes/lib/class-wow-custom-taxonomy-image.php' );
@@ -362,6 +365,13 @@ if ( ! class_exists( 'WoW_Manager' ) ) {
 		public function WoW_load_config() {
 			// Set class property
 			global $wowdb;
+			// check for update
+			$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+				'https://www.dnsetico.dev/wp-update-server/?action=get_metadata&slug=wow-manager',
+				__FILE__, //Full path to the main plugin file or functions.php.
+				'wow-manager'
+			);
+			// execute upgrade function
 			$up=new WoW_Updates($this);
 			
 			$this->option_gpsa = WoW_fill_gpsamain_to_array($this->basevars);
