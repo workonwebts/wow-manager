@@ -45,10 +45,6 @@ None, at moment
 
 == Changelog ==
 
-= 1.4.2 - 2022-04-05 =
-* Tested Elementor up to 3.6.2
-* Tested Elementor PRO up to 3.6.4
-
 = 2.6.1 =
 * Added PUC - Automatic Plugin Update Check
 
