@@ -1,5 +1,5 @@
 === WoW Manager ===
-Contributors: webetico
+Contributors: Work On Web di Andrea Starz,webetico
 Tags: elementor, elementor pro, forms, integration, marketing, lists, customization
 Requires at least: 5.0
 Tested up to: 6.0.1
@@ -8,8 +8,13 @@ Stable tag: 2.6.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-== Description ==
 Gestione Funzioni di sincronizzazione e importazione di prodotti, categorie, clienti e ordini da WoW-Commerce a WordPress/Woocommerce
+
+== Description ==
+
+Gestione Funzioni di sincronizzazione e importazione di prodotti, categorie, clienti e ordini da WoW-Commerce a WordPress/Woocommerce
+
+.... e molto di più
 
 
 == Installation ==
@@ -17,7 +22,7 @@ Gestione Funzioni di sincronizzazione e importazione di prodotti, categorie, cli
 = Minimum Requirements =
 
 * WordPress 5.0 or greater
-* PHP version 5.4 or greater
+* PHP version 7.0 or greater
 * MySQL version 5.0 or greater
 
 = We recommend your host supports: =
