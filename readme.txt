@@ -45,6 +45,9 @@ None, at moment
 
 == Changelog ==
 
+= 2.7.0 =
+* Added Debug section and controls to enable it
+
 = 2.6.1 =
 * Added PUC - Automatic Plugin Update Check
 
