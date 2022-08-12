@@ -83,12 +83,13 @@ if( ! class_exists( 'WoW_Sysinfo' ) ) {
 	   
 
 		public function build_sections() {
-	//		$this->settings=$this->appRef->settings;
+			/*
 			$sec[]=array('sysinfo',
 				__( 'Informazioni PHP', $this->textdomain ),
 				__( 'Visualizza impostazioni PHP.', $this->textdomain )
 			);
-			$this->settings->add_setting_sections($sec);
+			*/
+			//$this->settings->add_setting_sections($sec);
 		}
 		
 		public function build_fields() {
