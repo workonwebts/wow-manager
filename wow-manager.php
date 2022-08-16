@@ -4,7 +4,7 @@ Plugin Name: WoW Manager
 Plugin URI: http://www.work-on-web.it/
 Description: Gestione Funzioni di sincronizzazione e importazione di prodotti, categorie, clienti e ordini da WoW-Commerce a WordPress / Woocommerce
 Author: Andrea Starz
-Version: 2.7.0
+Version: 2.7.1
 Author URI: http://www.work-on-web.it/
 Text Domain: wow-manager
 License:     GPL-3.0+
@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // disable direct access
 }
  // Set the version number of the plugin.
-define( 'WOW_MANAGER_VERSION', '2.7.0' );
+define( 'WOW_MANAGER_VERSION', '2.7.1' );
  // Set the slug of the plugin.
 define( 'WOW_MANAGER_SLUG', basename( dirname( __FILE__ ) ) );
 define( 'WOWBOOKSTORE_SLUG', basename( dirname( __FILE__ ) ) );
