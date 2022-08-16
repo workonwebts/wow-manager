@@ -80,7 +80,7 @@ if( ! class_exists( 'WoW_Support' ) ) {
 		 // Manager menu
 		public function personal_page() {
 			// menu item
-				add_submenu_page($this->appRef->menu_name, __( 'Supporto', $this->textdomain ), '<span class="dashicons dashicons-admin-site"></span>'.__( 'Supporto', $this->textdomain ), 'read', 'wow-credits', array( $this, 'personal_callback'));
+				add_submenu_page($this->appRef->menu_name, __( 'Supporto', $this->textdomain ), '<span class="dashicons dashicons-admin-site"></span>'.__( 'Supporto', $this->textdomain ), 'read', 'wow-credits', array( $this, 'personal_callback'),99);
 	   }
 
 		 // Manager page callback

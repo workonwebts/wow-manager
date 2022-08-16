@@ -127,12 +127,13 @@ if( ! class_exists( 'WoW_Debug' ) ) {
 		}
 
 		public function wow_debug_page() {
-			add_submenu_page( 'index.php', 'WoW-Debug', 'WoW-Debug', 'manage_options', $this->slug, array($this,'wow_debug_callback'));
+			//add_submenu_page( 'index.php', 'WoW-Debug', 'WoW-Debug', 'manage_options', $this->slug, array($this,'wow_debug_callback'));
+			add_submenu_page( $this->appRef->menu_name, __('Debug Vars', $this->textdomain ), '<span class="dashicons dashicons-welcome-view-site"></span>'.__('Debug Vars', $this->textdomain ), 'manage_options', $this->slug, array($this,'wow_debug_callback'),90);
 		}
 
 		public function admin_enqueue_scripts($hook) { 
 			// Only load on plugin page
-			if ($hook!='dashboard_page_wow-debug') {
+			if ($hook!='wow-manager_page_wow-debug') {
 				return;
 			}
 			// Plugin stylesheet and script
@@ -148,6 +149,11 @@ if( ! class_exists( 'WoW_Debug' ) ) {
 			}
 			return $conf;
 		}
+		// include function for global use
+		public function admin_setting_assets() {
+
+		}
+		
 		public function build_sections() {
 	//		$this->settings=$this->appRef->settings;
 			$sec[]=array('wowdebug',

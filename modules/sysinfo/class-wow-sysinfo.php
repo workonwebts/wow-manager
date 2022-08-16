@@ -71,7 +71,7 @@ if( ! class_exists( 'WoW_Sysinfo' ) ) {
 		 // Manager menu
 		public function sysinfo_page() {
 			// menu item
-				add_submenu_page($this->appRef->menu_name, __( 'Sys Info', $this->textdomain ), '<span class="dashicons dashicons-bell"></span>'.__( 'System Info', $this->textdomain ), 'read', 'wow-sysinfo', array( $this, 'sysinfo_callback'));
+				add_submenu_page($this->appRef->menu_name, __( 'Sys Info', $this->textdomain ), '<span class="dashicons dashicons-bell"></span>'.__( 'System Info', $this->textdomain ), 'read', 'wow-sysinfo', array( $this, 'sysinfo_callback'),95);
 	   }
 
 		 // Manager page callback

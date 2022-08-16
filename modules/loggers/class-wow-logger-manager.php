@@ -84,7 +84,7 @@ if( ! class_exists( 'WoW_Logger_Manager' ) ) {
 		}
 		
 		public function logger_pages() {
-			add_submenu_page($this->appRef->menu_name, __( 'Visualizza Log Operazioni', $this->textdomain ) , '<span class="dashicons dashicons-clock"></span>'. __('Visualizza Log',$this->textdomain), 'manage_options', 'wow-actions-logger', array( $this, 'view_page_logs'));
+			add_submenu_page($this->appRef->menu_name, __( 'Visualizza Log Operazioni', $this->textdomain ) , '<span class="dashicons dashicons-clock"></span>'. __('Visualizza Log',$this->textdomain), 'manage_options', 'wow-actions-logger', array( $this, 'view_page_logs'),80);
 		}
 		
 		 // logs page callback

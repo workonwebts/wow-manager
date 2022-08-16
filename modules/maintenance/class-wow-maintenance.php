@@ -100,7 +100,7 @@ if( ! class_exists( 'WoW_Maintenance' ) ) {
 		// Manager menu
 		public function maintenance_page() {
 			// menu item
-			add_submenu_page($this->appRef->menu_name, __( 'Manutenzione e Aggiornamento', $this->textdomain ), '<span class="dashicons dashicons-hammer"></span>'.__( 'Manutenzione', $this->textdomain ), $this->maint_role, 'wow-maintenance', array( $this, 'maintenance_callback'));
+			add_submenu_page($this->appRef->menu_name, __( 'Manutenzione e Aggiornamento', $this->textdomain ), '<span class="dashicons dashicons-hammer"></span>'.__( 'Manutenzione', $this->textdomain ), $this->maint_role, 'wow-maintenance', array( $this, 'maintenance_callback'),70);
 		}
 		public function maintenance_assets() {
 //			wp_register_script( $this->appRef->_token . '-maint-settings-js', $this->appurl . 'settings' . $this->appRef->script_suffix . '.js', array( 'jquery' ), $this->version );
